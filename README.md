@@ -32,6 +32,10 @@ cd test_library
 
 3. Запустите приложение:
 
+``` sh
+python main.py
+```
+
 ## Примеры использования
 
 ### Просмотр всех доступных книг
@@ -100,7 +104,7 @@ cd test_library
 Для тестирования функционала приложения запустите unittest:
 
 ``` sh
-python -m unittest discover
+python app/tests.py
 ```
 
 ## Структура проекта
